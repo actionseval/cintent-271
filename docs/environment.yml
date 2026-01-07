@@ -1,0 +1,19 @@
+name: trackintel_docs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+# - python=3.8
+- geopandas>=0.12.0
+- pip:
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - geoalchemy2
+  - osmnx
+  - psycopg2
+  - sphinx
+  - sphinx_rtd_theme
+  - tqdm
+  - similaritymeasures

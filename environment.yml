@@ -1,0 +1,16 @@
+name: trackintel
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+- python
+- numpy
+- matplotlib
+- geopandas>=0.12.0
+- scikit-learn
+- pip 
+- geoalchemy2 
+- osmnx 
+- psycopg2
+- tqdm
+- similaritymeasures
